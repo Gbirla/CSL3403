@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant Selector</title>
+</head>
+<style>
+    article ol{
+        background-color: yellow;
+    }
+    article >ul{
+        color: red;
+    }
+</style>
+<body>
+    <h1 style="color: green;">Descendant Selector</h1>
+    <article>
+        <ul>
+            <h1 style="color: green;">ul under article</h1>
+            <li>Volleyball</li>
+            <li>Cricket</li>
+            <li>Chess</li>
+        </ul>
+        <div>
+            <ul>
+                <h1 style="color: green;">ul under div under article</h1>
+                <li>Volleyball</li>
+                <li>Cricket</li>
+                <li>Chess</li>
+            </ul>
+        </div>
+        <ol>
+            <h1 style="color: green;">ol under article</h1>
+            <li>Volleyball</li>
+            <li>Cricket</li>
+            <li>Chess</li>
+        </ol>
+        <div>   
+            <ol>
+               <h1 style="color: green;">ol under div under article</h1>
+               <li>Volleyball</li>
+               <li>Cricket</li>
+               <li>Chess</li>
+           </ol>
+        </div>   
+    </article>
+</body>
+</html>
