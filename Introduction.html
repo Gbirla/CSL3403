@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Box Model</title>
+</head>
+<style>
+     body{
+         box-sizing: border-box;
+         padding: 0;
+         margin: 0;
+         background-color: #e8d5f1;
+         display: flex;
+         font-family: 'Lobster', cursive; 
+         justify-content: center;
+         align-items: center;          
+     }
+       .container{
+         margin: 5% 33% 5% 33%;
+         border: 3px solid rgb(26, 1, 2);
+         border-radius: 25px;
+         width: 100%;
+         padding: 1% 1% 1% 1%;
+         background-color:#f1d5d5;
+         font-size: 20px;
+     }
+     #top{
+         text-align: center;
+        }
+     .image{
+         float: left;
+         border-radius: 20px;
+         border: 1px solid black;
+         width: 40%;
+         height: 100%;
+         margin: 7% 0% 1% 0%;
+         overflow: hidden;
+        }
+    .data{
+        float: right;
+        font-size: 15px;   
+        width: 50%;           
+     }
+</style>
+<body>
+    <div class="container">
+        <div id="top">
+            <h1 style="font-weight: 100;">Introduction</h1><hr>
+        </div>
+        <div>
+             <div class="image" >
+                 <img style="width: 100%;" src="https://gbirla.github.io/CSL3403/IMG_20210802_174814.jpg" alt="Profile Photo">
+             </div>
+             <div class="data" >
+                 <p>Name : Ganesh<hr></p>
+                 <p>Roll No. : 2006055<hr></p>
+                 <p>D.O.B : 12/03/2002<hr></p>
+                 <p>Branch : Computer Science Engineering<hr></p>
+                 <p>College : National Institute of Technology, Patna<hr></p>
+                 <p>Address : Khargone Madhya Pradesh, INDIA</p>
+                </div>
+
+        </div>
+    </div>
+</body>
+</html>
